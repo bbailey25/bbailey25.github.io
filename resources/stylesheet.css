@@ -34,6 +34,56 @@ header h1 { font-size:36px; }
     margin-top: 40px;
 }
 
-.iframe-container {
+/* .iframe-container {
     text-align: center;
+} */
+
+/* #contact-form input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:11px;
+    padding:4px 2px;
+    border:solid 1px #aa0d0d;
+    width:70px;
+    margin:2px 0 20px 10px;
+} */
+
+.center-div {
+    text-align: center;
+}
+
+#contact-div {
+    background-color: #eaeaea;
+    border-radius: 5px;
+    margin: 100px auto;
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+    color: #2d2d2d;
+}
+
+.contact-email {
+    display: block;
+    width: 450px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.contact-message {
+    display: block;
+    width: 450px;
+    height: 100px;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.contact-button {
+    background-color: #ee7716;
+    display: block;
+    width: 75px;
+    margin: 10px auto;
+    padding: 5px;
+    border:solid 2px #2d2d2d;
+    border-radius: 10px;
 }

@@ -28,14 +28,25 @@
                 some of the projects I've done. Enjoy.</p>
         </div>
 
-        <div class="iframe-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Uc33r2Newmw" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
+        <div id="contact-div">
+            <h2>Get in Touch</h2>
+            <div>
+                <form action="https://getsimpleform.com/messages?form_api_token=245860df09ed544faeb74ac9be9bced0"
+                    method="post">
+                    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                    <input type='hidden' name='redirect_to' value='https://google.com' />
+                    <!-- all your input fields here.... -->
+                    <input class="contact-email" type="email" name="_replyto" placeholder="Your email" required>
+                    <textarea class="contact-message" name="message" placeholder="Type your message"
+                        required></textarea>
+                    <button class="contact-button" type="submit">Send</button>
+                </form>
+            </div>
         </div>
 
     </div>
+
+    <script src="https://kwes.io/v2/kwes-script.js" defer></script>
 </body>
 
 </html>
