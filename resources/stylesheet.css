@@ -104,13 +104,13 @@ body {
 
 .resume-experience-flex {
   text-align: left;
-  width: 650px;
+  width: 800px;
   margin: auto;
   display: flex;
 }
 
 .resume-experience-flex section:nth-child(1) {
-  flex: 15%;
+  flex: 19%;
   font-size: 15px;
   text-align: right;
 
@@ -118,7 +118,7 @@ body {
 }
 
 .resume-experience-flex section:nth-child(2) {
-  flex: 28%;
+  flex: 24%;
   font-size: 12px;
   padding-left: 10px;
   color: #a9a9a9;
@@ -137,6 +137,34 @@ body {
 
 .resume-experience-flex ul {
   list-style: square;
+  margin-left: -25px;
+}
+
+.resume-experience-flex li {
+  padding-bottom: 5px;
+}
+
+.resume-experience-flex a {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-experience-flex-2 {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.column {
+  flex: 1;
+}
+
+.technical-div {
+  padding-bottom: 40px;
+  font-size: 12px;
 }
 
 .contact {
