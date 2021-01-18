@@ -14,16 +14,87 @@
 </head>
 
 <body>
-    <div class="content" style="position: relative;">
-        <div class=" top-nav">
+    <div class="content">
+        <div class="top-nav">
             <a href="contact">Contact</a>
             <a href="projects">Projects</a>
             <a href="https://bbailey25.github.io">Home</a>
             <!--must be better way to link to home page-->
         </div>
+    </div>
 
-        <h1 style="position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin:auto;
-            height: 200px; text-align: center">IN THE WORKS!</h1>
+    <div class="projects-grid-wrapper">
+        <div class="project-wrapper">
+            <a href="#proj-image-meta-save">
+                <img src="resources/images/image-meta-save.png" alt="plugin_photo">
+                <header>Image Meta Save | WP Plugin</header>
+            </a>
+        </div>
+        <div class="project-wrapper">
+            <a href="#proj-mysql-course">
+                <img src="resources/images/mysql.png" alt="mysql_photo">
+                <header>MySQL Course</header>
+            </a>
+        </div>
+        <!-- <div class="project-wrapper">
+            <a href="#proj-javascript-course">
+                <img src="resources/images/javascript-course.png" alt="javascript_photo">
+                <header>JavaScript Course</header>
+            </a>
+        </div> -->
+    </div>
+    <div class="projects-div">
+        <div class="project-div" id="proj-image-meta-save">
+            <hr>
+            <header>Image Meta Save</header>
+            <h3>Description</h3>
+            <p>
+                Image Meta Save can be used to add meta data to images and upload them to the WordPress media library.
+                The meta data can be saved together as a preset in a database to be used over and over.
+                <br><br>
+                The fields supported by this plugin are title, alternative text, caption, description, latitude, and
+                longitude.
+                <br><br>
+                All the fields can be seen in the media library, with the exception of latitude and longitude. Those can
+                be seen in the wp_postmeta database.
+            </p>
+            <h3>Links</h3>
+            <p>
+                WordPress Plugin Link: <a href="https://wordpress.org/plugins/image-meta-save/"
+                    target="_blank">https://wordpress.org/plugins/image-meta-save/</a><br>
+                Source Code: <a href="https://github.com/bbailey25/ImgMetaPlugin"
+                    target="_blank">https://github.com/bbailey25/ImgMetaPlugin</a>
+            </p>
+            <iframe width=100% height="500px" src="https://www.youtube.com/embed/hU6NI8syLDk" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="project-div" id="proj-mysql-course">
+            <hr>
+            <header>MySQL Course</header>
+            <h3>Description</h3>
+            <p>
+                This course is offered through Udemy and considered one of, if not
+                the best, courses for beginner MySQL. It gave me a nice introduction
+                into the syntax and had a lot of examples to practice crafting queries.
+                Overall, I was satisfied with the course, with the only complaint being I
+                felt there could have been more than a couple real-world examples with NodeJS and MySQL together. I
+                would say this course puts me at a intermediate
+                level, but at a level where I would be comfortable tackling most problems knowing I could Google and
+                figure out any issues.
+            </p>
+            <h3>Links</h3>
+            <p>
+                <a href="https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/"
+                    target="_blank">
+                    Course Link
+                </a>
+                <br>
+            </p>
+            <h3>PDF</h3>
+            <iframe src="resources/files/SQL Course.pdf" width="100%" height="500px">
+            </iframe>
+        </div>
     </div>
 
     <div class="footer">

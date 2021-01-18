@@ -211,3 +211,73 @@ body {
   border:solid 2px #2d2d2d;
   border-radius: 10px;
 }
+
+.projects-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 800px;
+  height: 300px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+  scrollbar-color: red;
+}
+
+.project-wrapper {
+  background: #2d2d2d;
+  color: #eaeaea;
+  text-align: center;
+  outline: 3px solid #a9a9a9;
+  margin-top: 3px;
+  margin-left: 3px;
+  padding: 15px;
+  height: 160px;
+}
+
+.project-wrapper a {
+  text-decoration: none;
+  color: #eaeaea;
+}
+
+.project-wrapper img {
+  width: 200px;
+  height: 120px;
+  padding-bottom: 10px;;
+  object-fit: cover;
+}
+
+.project-wrapper p {
+  font-size: 15px;
+}
+
+.projects-div {
+  margin: 600px auto 0;
+}
+
+.project-div {
+  width: 1000px;
+  margin-bottom: 50px;
+}
+
+.project-div header {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.resume-experience-flex {
+  text-align: left;
+  width: 800px;
+  margin: auto;
+  display: flex;
+}
+
+.resume-experience-flex section:nth-child(1) {
+  flex: 19%;
+  font-size: 15px;
+  text-align: right;
+
+  /* border: 2px solid red; */
+}
